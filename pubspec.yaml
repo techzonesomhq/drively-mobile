@@ -1,0 +1,98 @@
+name: app
+description: A new Flutter project by TechZoneSOM.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl_phone_field:
+    path: 'intl_phone_field'
+
+  cupertino_icons: ^1.0.8
+
+  # App
+  intl:
+  get: ^4.7.2
+  flutter_screenutil: ^5.9.3
+  url_launcher: ^6.3.2
+  share_plus: ^11.0.0
+  permission_handler: ^12.0.1
+
+  # Date
+  jiffy: ^6.4.3
+
+  # Style
+  shimmer: ^2.0.0
+#  flutter_widget_from_html:
+  flutter_animate: ^4.5.2
+  dotted_border: ^2.1.0
+#  webview_flutter: ^4.7.0
+
+  # DB
+  shared_preferences: ^2.5.3
+  path: ^1.9.0
+  path_provider: ^2.1.5
+  sqflite: ^2.4.2
+
+  # Http
+  http: ^1.2.2
+
+  # Firebase
+  firebase_core: ^4.0.0
+  cloud_firestore: ^6.0.0
+  firebase_messaging: ^16.0.0
+  flutter_local_notifications: ^19.4.0
+
+  # Map
+  google_maps_flutter: ^2.12.3
+  location: ^8.0.1
+
+  # Images
+  flutter_svg: ^2.2.0
+  cached_network_image: ^3.4.1
+  carousel_slider: ^5.1.1
+  image: ^4.5.4
+
+  # Files
+  file_picker: ^10.2.0
+
+  # OTP
+  pin_code_fields: ^8.0.1
+  sms_autofill: ^2.4.1
+
+  # Pickers
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: Dubai
+      fonts:
+        - asset: assets/fonts/Dubai/Dubai-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Dubai/Dubai-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Dubai/Dubai-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Dubai/Dubai-Regular.ttf
+          weight: 400

@@ -1,0 +1,15 @@
+const Map<String, String> en = {
+  "madeWithLoveBy": "Made with ❤️ by ",
+  "apex": "Apex",
+  "search": "Search",
+  "enterRightEmailFormatEx": "Enter right email address format!",
+  "enterVerificationCodeEx": "Enter Verification Code!",
+  "noData": "No Data",
+  "requiredAuthForAction": "Please login to be able to perform this action",
+  "somethingWentWrong": "Something went wrong! Please try again.",
+  "sureWantExitApp": "Are you sure to exit the app?",
+  "confirm": "Confirm",
+  "cancel": "Cancel",
+  "yes": "Yes",
+  "no": "No",
+};
